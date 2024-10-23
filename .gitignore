@@ -1,0 +1,60 @@
+# Python bytecode
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore the entire virtual environment directory
+venv/
+env/
+
+# Ignore Python package distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+_pycache_/
+
+# Ignore media and static files if they are generated during runtime
+media/
+staticfiles/
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# PyCharm settings (if using PyCharm)
+.idea/
+
+# Ignore environment variables and secrets (if using a .env file)
+.env
+
+# Ignore compiled translations
+*.mo
+
+# Ignore backups
+*.bak
+*.swp
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.yml
+Dockerfile
+
+# Ignore Node.js dependencies (if using a frontend in the same repo)
+node_modules/
+
+# Ignore npm debug log files
+npm-debug.log
